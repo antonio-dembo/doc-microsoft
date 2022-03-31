@@ -1,0 +1,14 @@
+D:\Recursos\doc-mirosoft\XmlPractice\MappingObjectHierachyToXMLData\bin\Debug\netcoreapp3.1\MappingObjectHierachyToXMLData.exe
+D:\Recursos\doc-mirosoft\XmlPractice\MappingObjectHierachyToXMLData\bin\Debug\netcoreapp3.1\MappingObjectHierachyToXMLData.deps.json
+D:\Recursos\doc-mirosoft\XmlPractice\MappingObjectHierachyToXMLData\bin\Debug\netcoreapp3.1\MappingObjectHierachyToXMLData.runtimeconfig.json
+D:\Recursos\doc-mirosoft\XmlPractice\MappingObjectHierachyToXMLData\bin\Debug\netcoreapp3.1\MappingObjectHierachyToXMLData.runtimeconfig.dev.json
+D:\Recursos\doc-mirosoft\XmlPractice\MappingObjectHierachyToXMLData\bin\Debug\netcoreapp3.1\MappingObjectHierachyToXMLData.dll
+D:\Recursos\doc-mirosoft\XmlPractice\MappingObjectHierachyToXMLData\bin\Debug\netcoreapp3.1\MappingObjectHierachyToXMLData.pdb
+D:\Recursos\doc-mirosoft\XmlPractice\MappingObjectHierachyToXMLData\obj\Debug\netcoreapp3.1\MappingObjectHierachyToXMLData.csproj.AssemblyReference.cache
+D:\Recursos\doc-mirosoft\XmlPractice\MappingObjectHierachyToXMLData\obj\Debug\netcoreapp3.1\MappingObjectHierachyToXMLData.GeneratedMSBuildEditorConfig.editorconfig
+D:\Recursos\doc-mirosoft\XmlPractice\MappingObjectHierachyToXMLData\obj\Debug\netcoreapp3.1\MappingObjectHierachyToXMLData.AssemblyInfoInputs.cache
+D:\Recursos\doc-mirosoft\XmlPractice\MappingObjectHierachyToXMLData\obj\Debug\netcoreapp3.1\MappingObjectHierachyToXMLData.AssemblyInfo.cs
+D:\Recursos\doc-mirosoft\XmlPractice\MappingObjectHierachyToXMLData\obj\Debug\netcoreapp3.1\MappingObjectHierachyToXMLData.csproj.CoreCompileInputs.cache
+D:\Recursos\doc-mirosoft\XmlPractice\MappingObjectHierachyToXMLData\obj\Debug\netcoreapp3.1\MappingObjectHierachyToXMLData.dll
+D:\Recursos\doc-mirosoft\XmlPractice\MappingObjectHierachyToXMLData\obj\Debug\netcoreapp3.1\MappingObjectHierachyToXMLData.pdb
+D:\Recursos\doc-mirosoft\XmlPractice\MappingObjectHierachyToXMLData\obj\Debug\netcoreapp3.1\MappingObjectHierachyToXMLData.genruntimeconfig.cache
