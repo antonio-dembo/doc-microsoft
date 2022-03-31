@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R9VxZQ/9x9cZBxdrufwd3PQBHp2ijPBq8G5+xe6aIry2xlhHhpnBYEcPJFhSfnHKEuWaGhjMoqpoC35z3gwD5Q==",
+  "dgSpecHash": "9SkQeQmqQ/dEfOzLROMqgPw3VU9vyLcB49K0nxRjUoBx5fr5SM0LYj0PTWEJy59fyrHwHFAbacjd2HLL5OBmcA==",
   "success": true,
-  "projectFilePath": "D:\\Recursos\\doc-mirosoft\\XmlPractice\\MappingObjectHierachyToXMLData\\MappingObjectHierachyToXMLData.csproj",
+  "projectFilePath": "D:\\Recursos\\doc-microsoft\\XmlPractice\\MappingObjectHierachyToXMLData\\MappingObjectHierachyToXMLData.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\beboa\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.20\\microsoft.netcore.app.host.win-x64.3.1.20.nupkg.sha512"
   ],

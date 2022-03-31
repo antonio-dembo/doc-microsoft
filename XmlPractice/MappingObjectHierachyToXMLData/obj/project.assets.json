@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Recursos\\doc-mirosoft\\XmlPractice\\MappingObjectHierachyToXMLData\\MappingObjectHierachyToXMLData.csproj",
+      "projectUniqueName": "D:\\Recursos\\doc-microsoft\\XmlPractice\\MappingObjectHierachyToXMLData\\MappingObjectHierachyToXMLData.csproj",
       "projectName": "MappingObjectHierachyToXMLData",
-      "projectPath": "D:\\Recursos\\doc-mirosoft\\XmlPractice\\MappingObjectHierachyToXMLData\\MappingObjectHierachyToXMLData.csproj",
+      "projectPath": "D:\\Recursos\\doc-microsoft\\XmlPractice\\MappingObjectHierachyToXMLData\\MappingObjectHierachyToXMLData.csproj",
       "packagesPath": "C:\\Users\\beboa\\.nuget\\packages\\",
-      "outputPath": "D:\\Recursos\\doc-mirosoft\\XmlPractice\\MappingObjectHierachyToXMLData\\obj\\",
+      "outputPath": "D:\\Recursos\\doc-microsoft\\XmlPractice\\MappingObjectHierachyToXMLData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\beboa\\AppData\\Roaming\\NuGet\\NuGet.Config",
