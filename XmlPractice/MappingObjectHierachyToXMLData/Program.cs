@@ -29,7 +29,7 @@ namespace MappingObjectHierachyToXMLData
                 {
                     reader.Close();
                 }
-            }                        
+            }
         }
 
         private static void ParseFileAndDisplayEachOfTheNodes(XmlTextReader reader)
