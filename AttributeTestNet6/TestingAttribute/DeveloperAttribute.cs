@@ -2,6 +2,7 @@
 
 namespace AttributeTestNet6.TestingAttribute;
 
+[AttributeUsage(validOn: AttributeTargets.All, AllowMultiple = true)]
 public class DeveloperAttribute : Attribute
 {
     public string? Name { get; set; }

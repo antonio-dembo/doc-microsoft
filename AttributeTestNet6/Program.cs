@@ -2,6 +2,4 @@
 
 using AttributeTestNet6.TestingAttribute;
 
-MainApp.GetStarted();
-
-//Debug.WriteLine("Hello, World!");
+MainApp.GetAttributes(typeof(MainApp));
