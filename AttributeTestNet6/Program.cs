@@ -2,4 +2,4 @@
 
 using AttributeTestNet6.TestingAttribute;
 
-MainApp.GetAttributes(typeof(MainApp));
+MainApp.GetClassLevelAttribute(typeof(MainApp));

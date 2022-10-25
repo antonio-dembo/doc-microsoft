@@ -9,32 +9,24 @@ namespace AttributeTestNet6.TestingAttribute;
 [Developer("Antonio", "50", reviewed: true)]
 public class MainApp
 {
-    public static void GetStarted()
+    public static void GetClassLevelAttribute(Type type)
     {
-        GetAttribute(typeof(MainApp));
-    }
-
-    private static void GetAttribute(Type type)
-    {
-        // Get Instance of the attribute
+        // Get Class level Instance of the attribute
         DeveloperAttribute? myAttribute = Attribute.GetCustomAttribute(type, typeof(DeveloperAttribute)) as DeveloperAttribute;
         
         if(myAttribute == null)
         {
-            Console.WriteLine("The attribute was not found.");
+            Console.WriteLine("No attribute in class {0}.\n", type.ToString());
         }
         else
         {
-            // Get the Name value.
-            Console.WriteLine("The Name Attribute is: {0}.", myAttribute.Name);
-            // Get the Level value.
-            Console.WriteLine("The Level Attribute is: {0}.", myAttribute.Level);
-            // Get the Reviewed value.
-            Console.WriteLine("The Reviewed Attribute is: {0}.", myAttribute.Reviewed);
+            Console.WriteLine("The Name Attribute on the class level is: {0}.", myAttribute.Name);
+            Console.WriteLine("The Level Attribute on the class level is: {0}.", myAttribute.Level);
+            Console.WriteLine("The Reviewed Attribute on the class level is: {0}.\n", myAttribute.Reviewed);
         }
     }
-
-    public static void GetAttributes (Type type)
+        
+    public static void GetMultipleClassLevelAttributes (Type type)
     {
         DeveloperAttribute[] myAttributes = (DeveloperAttribute[]) Attribute.GetCustomAttributes(type, typeof(DeveloperAttribute));
         
@@ -51,5 +43,40 @@ public class MainApp
                 Console.WriteLine("The Reviewed Attribute is: {0}", myAttributes[i].Reviewed);
             }
         }
+    }
+
+    public static void GetMultipleAttributesInDifferentScopes(Type type)
+    {
+        DeveloperAttribute? att;
+
+        GetClassLevelAttribute(type);
+
+        // Get method-level attributes.
+
+        // Get all the public methods in this class, and put them
+        // in an array of System.Reflection.MemberInfo objects.
+        MemberInfo[] myMemberInfo = type.GetMethods();
+
+        for (int i = 0; i < myMemberInfo.Length; i++)
+        {
+            att = Attribute.GetCustomAttribute(myMemberInfo[i], typeof(DeveloperAttribute)) as DeveloperAttribute;
+
+            if (att == null)
+            {
+                Console.WriteLine("No attribute in member functioln {0}.\n", myMemberInfo[i].ToString());
+            }
+            else
+            {
+                Console.WriteLine("The Name Attribute for the {0} member is: {1}.", myMemberInfo[i].ToString(), att.Name);
+                Console.WriteLine("The Level Attribute for the {0} member is: {1}.", myMemberInfo[i].ToString(), att.Level);
+                Console.WriteLine("The Reviewed Attribute for the {0} member is: {1}.\n", myMemberInfo[i].ToString(), att.Reviewed);
+            }
+        }
+    }
+
+    [Developer("Antonio", "23", false)]
+    public static void TestMemberAttribute()
+    {
+
     }
 }
